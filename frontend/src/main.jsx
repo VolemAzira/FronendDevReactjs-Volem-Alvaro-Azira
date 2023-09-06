@@ -1,9 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 import Root from "./pages/Root";
@@ -25,7 +22,7 @@ const router = createBrowserRouter([
       {
         path: "/detail/:id",
         element: <Detail />,
-      }
+      },
     ],
   },
 ]);

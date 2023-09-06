@@ -8,7 +8,7 @@ const Restaurants = db.define(
   {
     name: DataTypes.STRING,
     categories: DataTypes.STRING,
-    rating: DataTypes.INTEGER,
+    rating: DataTypes.FLOAT,
     price: DataTypes.STRING,
     status: DataTypes.STRING,
     description: DataTypes.STRING,
