@@ -15,4 +15,5 @@ npm run dev <br>
 npm i express fileupload-express cors sequqlize mysql2 nodemon <br>
 npm start
 
+## CRUD database menggubaka Postman
 
